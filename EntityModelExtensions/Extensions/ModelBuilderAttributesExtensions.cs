@@ -38,8 +38,8 @@ namespace EntityModelExtensions.Extensions
                 var properties = entity.GetProperties();
                 foreach (var property in properties)
                 {
-                    if (property.PropertyInfo
-                        .GetCustomAttributes(typeof(TAttribute), false)
+                    if (property?.PropertyInfo
+                        ?.GetCustomAttributes(typeof(TAttribute), false)
                         .FirstOrDefault() is TAttribute attribute)
                     {
                         propsToModify.Add(new Tuple<IMutableProperty, TAttribute>(property, attribute));
