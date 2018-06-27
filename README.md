@@ -5,7 +5,7 @@ Additional helpers for EntityFramework Core
 * You can use nuget to install package `Install-Package EntityModelExtensions`.
 * Or you can use dotnet cli `dotnet add package EntityModelExtensions`.
 
-## You can use auto registration for model configuration
+## Auto registration for model configuration
 
 Apply on DbContext.
 
@@ -40,7 +40,7 @@ Then you can add IEntityTypeConfiguration to model.
 
 And this configuration automatically apply to DbContext, without having to add DbSet manually.
 
-## You can use SqlDefaultValue attribute
+## SqlDefaultValue attribute
 
 Apply on DbContext.
 
