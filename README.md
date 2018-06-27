@@ -1,6 +1,10 @@
 # EntityModelExtensions
 Additional helpers for EntityFramework Core
 
+## Installing
+* You can use nuget to install package `Install-Package EntityModelExtensions`.
+* Or you can use dotnet cli `dotnet add package EntityModelExtensions`.
+
 ## You can use auto registration for model configuration
 
 Apply on DbContext.
